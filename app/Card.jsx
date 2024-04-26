@@ -15,7 +15,7 @@ function Card({ href, imgSrc, children, title }) {
   // };
 
   return (
-    <div className="card rounded-lg w-[360px] mb-10 flex-shrink-0 shadow-2xl overflow-hidden">
+    <div className=" text-white card rounded-lg w-[360px] mb-10 flex-shrink-0 shadow-2xl overflow-hidden">
       {" "}
       <h2 className="text-2l font-normal mb-4">{title}</h2>
       {/* Change bg-blue-200 to the desired background color class */}

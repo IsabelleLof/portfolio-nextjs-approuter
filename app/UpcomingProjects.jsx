@@ -7,7 +7,7 @@ import bank_app_express_nodeJS from "@/public/assets/bank_app_express_nodeJS.jpg
 
 function CardSection() {
   return (
-    <div className="max-w-screen-xl grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-16 mt-4">
+    <div className=" text-white max-w-screen-xl grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-16 mt-4">
       <Card
         imgSrc={ocean_game_sunset}
         //href={"https://github.com/IsabelleLof/ocean-game"}

@@ -6,7 +6,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 const Header = () => {
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 opacity-60">
+    <nav className="bg-gray-900 border-gray-200 dark:bg-gray-900 opacity-60">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           {/* <img src="" className="h-8" alt="" /> */}

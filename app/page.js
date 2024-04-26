@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center px-36 min-h-screen">
+    <main className=" text-white flex flex-col items-center justify-center px-36 min-h-screen">
       <div className="app">
         {[...Array(20)].map((_, index) => (
           <span key={index} className={`span-${index}`} />
@@ -54,7 +54,7 @@ export default function Home() {
           fullstack projects. Regarding fullstack projects, I have deployed them
           using Amazon AWS EC2 instances, PM2, and Docker.
         </p>
-        <p className="font-thin text-3xl mb-12 mt-4">
+        <p className=" font-thin text-3xl mb-12 mt-4">
           My recently position was at a start-up company Flow Lobby where i
           worked on buildning react components and, a livestreaming feature with
           LivePeer and a chatfeature where we used getStream.io. I learned a lot
