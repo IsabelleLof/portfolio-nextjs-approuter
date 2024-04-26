@@ -20,7 +20,7 @@ function ExperienceSection() {
 //   };
 
   return (
-    <div className="max-w-screen-xl grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-16 mt-4">
+    <div className=" text-white max-w-screen-xl grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-16 mt-4">
       <Card
         title="Fullstack dev/Frontend at Flow Lobby"
         imgSrc={flow_lobby}
