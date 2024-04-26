@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+p {
+  color: white;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
